@@ -7,6 +7,10 @@
     <link rel="stylesheet" href="variables.scss" />
     <link rel="stylesheet" href="style.scss" />
     <link rel="stylesheet" href="button.scss" />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎉</text></svg>"
+    />
     <title>Common App</title>
   </head>
   <body>
@@ -31,8 +35,8 @@
       <div class="congrats">Congratulations!</div>
       <article contenteditable>
         <p>
-          You have successfully submitted your Common Application for First
-          Year students to <b>Georgia Institute of Technology</b>.
+          You have successfully submitted your Common Application for First Year
+          students to <b>Massachusetts Institute of Technology</b>.
         </p>
 
         <p>
@@ -40,18 +44,22 @@
           the Dashboard tab. Please ensure that any incomplete requirements are
           submitted prior to the college's application deadline.
         </p>
-      </article>
 
+        <p>Massachusetts Institute of Technology has recommended certain next steps for your application. You can access that information by clicking on What's next below.</p>
+      </article>
+    </main>
+
+    <div class="button-bar">
+      <button class="celebrate" id="celebrate_button">
+        <div class="icon">🎉</div>
+        <div class="text">Celebrate!</div>
+      </button>
+
+      <button class="green" id="next_button">
+        <div class="text">What's next</div>
+      </button>
     </div>
-  </main>
-          <div class="button-bar">
-            <button class="celebrate">
-              <div class="icon">🎉</div>
-              <div class="text">Celebrate!</div>
-            </button>
-    
-            <button class="green">
-              <div class="text">What's next</div>
-            </button>
+
+    <script src="./script.js"></script>
   </body>
 </html>
