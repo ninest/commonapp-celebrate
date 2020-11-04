@@ -1,8 +1,10 @@
-# Common Celebrate
+# [Common Celebrate](http://celebrate.now.sh/)
 > **🎉 Celebrate even after sending in your college applications.**
 
 
-<img src="./src/assets/ogimage.png" style="width:100%"></img>
+<p align="center">
+  <img src="demo.gif" alt="Demo" />
+</p>
 
 ## ⚙️ Build setup
 
