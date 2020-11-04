@@ -12,16 +12,18 @@ export const initialCelebrate = () => {
     }
 
     confetti({
-      startVelocity: 60,
-      spread: 100,
+      startVelocity: 30,
+      spread: 360,
       ticks: 60,
+      zIndex: 1,
+      particleCount: 165,
       origin: {
         x: randomBetween(0.3, 0.7),
-        y: randomBetween(0.45, 0.9)
+        y: randomBetween(0.35, 0.83)
       }
     });
     console.log('cycle');
-  }, 350);
+  }, 310);
 };
 
 const randomBetween = (min, max) => {
