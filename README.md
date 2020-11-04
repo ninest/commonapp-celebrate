@@ -1,4 +1,4 @@
-# Common Celebreate
+# Common Celebrate
 > **🎉 Celebrate even after sending in your college applications.**
 
 ## ⚙️ Build setup
