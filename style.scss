@@ -1,8 +1,8 @@
-@import "screen.scss";
+@import 'screen.scss';
 
 * {
-  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto,
-    "Helvetica Neue", Arial, sans-serif;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    'Helvetica Neue', Arial, sans-serif;
   font-size: var(--font-size);
 }
 
@@ -48,7 +48,7 @@ main {
   bottom: 0;
   left: 0;
   right: 0;
-  
+
   padding: 1rem var(--side-space);
   border-top: 2px solid rgb(226, 226, 226);
   background-color: white;
