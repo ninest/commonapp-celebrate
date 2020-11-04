@@ -1,6 +1,6 @@
 const confetti = require('canvas-confetti').default;
 export const initialCelebrate = () => {
-  const duration = 3 * 1000;
+  const duration = 4 * 1000;
   const animationEnd = Date.now() + duration;
 
   const interval = setInterval(() => {
@@ -12,16 +12,16 @@ export const initialCelebrate = () => {
     }
 
     confetti({
-      startVelocity: 30,
-      spread: 200,
+      startVelocity: 60,
+      spread: 100,
       ticks: 60,
       origin: {
-        x: randomBetween(0.2, 0.8),
-        y: randomBetween(0.2, 0.8)
+        x: randomBetween(0.3, 0.7),
+        y: randomBetween(0.45, 0.9)
       }
     });
     console.log('cycle');
-  }, 400);
+  }, 350);
 };
 
 const randomBetween = (min, max) => {

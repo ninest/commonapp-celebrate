@@ -1,4 +1,4 @@
-button {
+a.button, button {
   padding: 0.8rem 1.6rem;
   transition: 0.1s all;
   border-radius: 999px;
@@ -11,6 +11,8 @@ button {
   vertical-align: bottom;
 
   font-weight: bold;
+  text-decoration: none;
+  color: unset;
 
   &:hover {
     // copied from commonapp.org
