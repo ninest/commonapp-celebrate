@@ -1,0 +1,59 @@
+@import "screen.scss";
+
+* {
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
+  font-size: var(--font-size);
+}
+
+// common app green tick
+header {
+  padding: 3rem;
+  background-color: var(--ca-green);
+
+  color: white;
+  text-align: center;
+
+  .tick-mark {
+    width: 10rem;
+  }
+
+  .submitted {
+    margin-top: 0.5rem;
+    font-size: 2.5rem;
+    font-weight: 500;
+  }
+}
+
+main {
+  padding: 2rem var(--side-space);
+  color: var(--text);
+
+  .congrats {
+    color: var(--ca-blue);
+    font-weight: 500;
+    font-size: 1.5rem;
+  }
+
+  article {
+    line-height: 1.7;
+  }
+
+  // allow overscroll because button-bar takes up space
+  margin-bottom: 5rem;
+}
+
+.button-bar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  
+  padding: 1rem var(--side-space);
+  border-top: 2px solid rgb(226, 226, 226);
+  background-color: white;
+
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.9rem;
+}

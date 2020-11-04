@@ -1,0 +1,16 @@
+@import "screen.scss";
+:root {
+  --ca-green: #00c060;
+  --ca-blue: #0065bc;
+
+  --text: #222;
+  --ca-submit-blue-button: #0067c0;
+
+  --side-space: 15%;
+  --font-size: 18px;
+
+  @include mobile-screen {
+    --side-space: 5%;
+    --font-size: 16px;
+  }
+}
