@@ -4,10 +4,10 @@
   "description": "",
   "scripts": {
     "clean": "rimraf ./public && rimraf ./dist && rimraf ./.cache",
-    "watch": "parcel watch index.html",
+    "watch": "parcel watch src/index.html",
     "bs": "browser-sync start -s 'dist' -f 'dist' --port 9000",
     "dev": "npm run clean && concurrently \"npm run watch\" \"npm run bs\"",
-    "build": "parcel build index.html"
+    "build": "parcel build src/index.html"
   },
   "keywords": [],
   "author": "",
